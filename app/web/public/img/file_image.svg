@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-imageFile</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icon-files" sketch:type="MSArtboardGroup" transform="translate(-29.000000, -77.000000)">
+            <g id="icon-imageFile" sketch:type="MSLayerGroup" transform="translate(29.000000, 77.000000)">
+                <rect id="Rectangle-1-copy" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="0" width="17" height="17" rx="1"></rect>
+                <g id="image2" transform="translate(3.000000, 5.000000)" fill="#F8D053" sketch:type="MSShapeGroup">
+                    <path d="M9.43931976,2.56070884 C9.71702953,2.83840054 10.1072061,3 10.5,3 C10.8927939,3 11.2829705,2.83840054 11.5606802,2.56070884 C11.8384291,2.28301715 12,1.89270973 12,1.50009765 C12,1.10732933 11.8384291,0.717021914 11.5606802,0.439447403 C11.2829705,0.161755706 10.8927939,0 10.5,0 C10.1072061,0 9.71702953,0.161755706 9.43931976,0.439447403 C9.16157092,0.717021914 9,1.10732933 9,1.50009765 C9,1.89270973 9.16157092,2.28301715 9.43931976,2.56070884 Z M0,9 L3.00004883,1 L6.99998372,5.99997559 L9.00014648,4.50006103 L12,9 L0,9 Z" id="Fill-1"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

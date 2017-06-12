@@ -1,0 +1,54 @@
+{
+    "main": {
+        "Paste or drag a torrent": "Hash oder magnet Link einf\u00fcgen",
+        "No torrent selected": "Kein Torrent ausgew\u00e4hlt"
+    },
+    "sidebar": {
+        "All": "Alle",
+        "Downloading": "Am runterladen",
+        "Paused": "Pausiert",
+        "Seeding": "Am senden",
+        "Done": "Fertig",
+        "Bugs": "Fehler",
+        "Ideas": "Ideen",
+        "Share": "Teilen"
+    },
+    "share": {
+        "Give the gifts of donuts": "Verschenke ein paar Donuts",
+        "Share DonutGlaze with your friends and make their day! Everyone loves donuts.": "Teile DonutGlaze mit deinen Freunden! Jeder liebt Donuts."
+    },
+    "torrent": {
+        "Checking...": "Pr\u00fcfen...",
+        "Paused": "Pausiert",
+        "Calculating...": "Berechnen...",
+        "Done": "Fertig"
+    },
+    "onboarding": {
+        "Click links with magnets": "Klicke auf einen magnet link",
+        "They will download here!": "und der Torrent wird hier automatisch runtergeladen!",
+        "Next": "Weiter",
+        "Stream torrents while they download": "Streame Torrents w\u00e4hrend diese runtergeladen werden",
+        "Click on the playable file and stream!": "Klicke auf eine abspielbare Datei und fange an zu streamen!",
+        "Finish": "Fertig"
+    },
+    "drop": {
+        "Drop it like it's hot!": "Drop it like it's hot!"
+    },
+    "tooltips": {
+        "Pause downloading": "Pausiere den Download",
+        "Resume downloading": "Download fortsetzen",
+        "Share torrent": "Torrent teilen",
+        "Delete torrent, keep files": "Dateien behalten, torrent l\u00f6schen",
+        "Delete torrent and files": "Torrent und Dateien l\u00f6schen"
+    },
+    "settings": {
+        "Settings": "Einstellungen",
+        "General": "Allgemein",
+        "Downloads": "Downloads",
+        "Change": "\u00c4ndern",
+        "Startup": "Systemstart",
+        "Run at startup": "Starten bei Systemstart",
+        "Language": "Sprache",
+        "If you do dont see your language, help us translate": "Sprache nicht gefunden? Hilf uns bei der \u00dcbersetzung."
+    }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-defaultFile</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icon-files" sketch:type="MSArtboardGroup" transform="translate(-75.000000, -124.000000)">
+            <g id="icon-defaultFile" sketch:type="MSLayerGroup" transform="translate(75.000000, 124.000000)">
+                <rect id="Rectangle-1" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="0" width="17" height="17" rx="1"></rect>
+                <path d="M4,14 L13,14 L13,6.4368125 L9.51785714,3 L4,3 L4,14 Z M9.14285714,4.29411765 L11.7142857,6.88235294 L9.14285714,6.88235294 L9.14285714,4.29411765 Z" id="Shape" fill="#3B4752" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

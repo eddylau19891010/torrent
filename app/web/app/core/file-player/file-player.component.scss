@@ -1,0 +1,36 @@
+.file-player {
+  display: block;
+}
+
+.ui-player {
+  background-repeat: repeat;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-linear-gradient(90deg, #000 0, rgba(0,0,0,0.75) 30%, rgba(0,0,0,0.50196) 100%), url("img/donut-pattern.png");
+  color: white;
+}
+
+.ui-player-open {
+  position: relative;
+  top: calc(50% - 40px);
+  left: calc(50% - 40px);
+  width: 80px;
+}
+
+.player {
+  height: 100%;
+  display: block;
+  width: 100%;
+}
+
+.wcp-progress-seen {
+  background: #FF708A;
+}
+
+.wcp-vol-bar-full {
+  background: #FF708A;
+}
+
+.player-hidden {
+  visibility: hidden;
+}

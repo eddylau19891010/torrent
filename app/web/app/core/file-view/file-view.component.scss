@@ -1,0 +1,53 @@
+.file-view {
+  display: block;
+  height: 100%;
+
+  ul {
+    padding-left: 0;
+  }
+}
+
+.email-content-wrapper {
+  height: 100%;
+
+  .media-placeholder {
+    height: 50%!important;
+    background-image: -webkit-linear-gradient(90deg, #000 0, rgba(0,0,0,0.75) 30%, rgba(0,0,0,0.50196) 100%), url("img/donut-pattern.png");
+  }
+}
+
+file-player {
+  height: 100%;
+  display: block;
+  background-repeat: repeat;
+  width: 100%;
+  background-image: -webkit-linear-gradient(90deg, #000 0, rgba(0,0,0,0.75) 30%, rgba(0,0,0,0.50196) 100%), url("img/donut-pattern.png");
+  color: white;
+}
+
+.file-view-files {
+  overflow-y: auto;
+  height: 50%;
+}
+
+.file-view-list {
+  display: none;
+
+  &.list-loaded {
+    display: block;
+  }
+}
+
+.file-item {
+  display: block;
+}
+
+.no-torrent-text {
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  color: #3b4751;
+}

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=Donutglaze
+GenericName=BitTorrent Client
+Comment=Donutglaze is a streaming capable Bittorrent client with a browser based user interface
+Exec=/usr/local/bin/donutglaze/donutglaze %U
+Path=/usr/local/bin/donutglaze/
+Icon=/usr/local/bin/donutglaze/logo256.png
+Terminal=false
+Type=Application
+MimeType=application/x-bittorrent;x-scheme-handler/magnet;
+Categories=Network;FileTransfer;P2P

@@ -1,0 +1,54 @@
+{
+    "main": {
+        "Paste or drag a torrent": "Cole ou arraste um torrent",
+        "No torrent selected": "Nenhum torrent selecionado"
+    },
+    "sidebar": {
+        "All": "Todos",
+        "Downloading": "Baixando",
+        "Paused": "Pausado",
+        "Seeding": "Fazendo seeding",
+        "Done": "Feito",
+        "Bugs": "Erros",
+        "Ideas": "Ideias",
+        "Share": "Compartilhe"
+    },
+    "share": {
+        "Give the gifts of donuts": "D\u00ea os pr\u00e9mios de donuts",
+        "Share DonutGlaze with your friends and make their day! Everyone loves donuts.": "Compartilhe DonutGlaze com seus amigos e fa\u00e7a seu dia! Todos amam donuts"
+    },
+    "torrent": {
+        "Checking...": "Verificando",
+        "Paused": "Pausado",
+        "Calculating...": "Calculando...",
+        "Done": "Feito"
+    },
+    "onboarding": {
+        "Click links with magnets": "Clique nos links com magnetos",
+        "They will download here!": "V\u00e3o baixar aqui!",
+        "Next": "Pr\u00f3ximo",
+        "Stream torrents while they download": "Fa\u00e7a stream dos torrents enquanto baixam",
+        "Click on the playable file and stream!": "Clique no ficheiro reproduzivel e veja!",
+        "Finish": "Fim"
+    },
+    "drop": {
+        "Drop it like it's hot!": "Deixa cair como uma bomba!"
+    },
+    "tooltips": {
+        "Pause downloading": "Pausar download",
+        "Resume downloading": "Retomar download",
+        "Share torrent": "Partilhar torrent",
+        "Delete torrent, keep files": "Apagar torrent, manter ficheiros",
+        "Delete torrent and files": "Apagar torrent e ficheiros"
+    },
+    "settings": {
+        "Settings": "Configura\u00e7\u00f5es",
+        "General": "Geral",
+        "Downloads": "Downloads",
+        "Change": "Mudar",
+        "Startup": "Startup",
+        "Run at startup": "Corra um startup",
+        "Language": "Idioma",
+        "If you do dont see your language, help us translate": "Se n\u00e3o est\u00e1 vendo o seu idioma, ajude-nos traduzindo"
+    }
+}

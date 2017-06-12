@@ -1,0 +1,29 @@
+@media (min-width: 768px) {
+	.modal .modal-dialog {
+		min-width: inherit;
+	}
+}
+
+.modal {
+	.modal-dialog {
+		transition: all .1s !important;
+    width: 470px;
+		font-size: 16px;
+	}
+
+	h2 {
+		font-size: 22px;
+		margin-top: 0px;
+	}
+}
+.btn {
+	font-family: lato;
+}
+.btn-lg, .btn-group-lg > .btn{
+	font-size: 1.25rem;
+	height: 40px;
+}
+
+body, input {
+	font-family: Lato !important;
+}

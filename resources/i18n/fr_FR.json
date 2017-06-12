@@ -1,0 +1,54 @@
+{
+    "main": {
+        "Paste or drag a torrent": "Coller ou faire glisser un torrent",
+        "No torrent selected": "Aucun torrent s\u00e9lectionn\u00e9"
+    },
+    "sidebar": {
+        "All": "Tout",
+        "Downloading": "T\u00e9l\u00e9chargement",
+        "Paused": "En pause",
+        "Seeding": "Seeding",
+        "Done": "Termin\u00e9",
+        "Bugs": "Bugs",
+        "Ideas": "Id\u00e9es",
+        "Share": "Partager"
+    },
+    "share": {
+        "Give the gifts of donuts": "Donnez les cadeaux des beignets",
+        "Share DonutGlaze with your friends and make their day! Everyone loves donuts.": "Partage DonutGlaze avec vos amis et donnez leurs une merveilleuse journ\u00e9e! Tout le monde aime les beignets."
+    },
+    "torrent": {
+        "Checking...": "V\u00e9rification...",
+        "Paused": "Pause",
+        "Calculating...": "Calculation...",
+        "Done": "Termin\u00e9"
+    },
+    "onboarding": {
+        "Click links with magnets": "Cliquez sur les liens avec des aimants",
+        "They will download here!": "Ils vont t\u00e9l\u00e9charger ici!",
+        "Next": "Prochain",
+        "Stream torrents while they download": "Faites du streaming de vos torrents pendant le t\u00e9l\u00e9chargement",
+        "Click on the playable file and stream!": "Cliquez sur le fichier jouable et streamez le!",
+        "Finish": "Terminer"
+    },
+    "drop": {
+        "Drop it like it's hot!": "Faites le tomber comme si c'etait chaud!"
+    },
+    "tooltips": {
+        "Pause downloading": "Pause de t\u00e9l\u00e9chargement",
+        "Resume downloading": "Reprise du t\u00e9l\u00e9chargement",
+        "Share torrent": "Partager le torrent",
+        "Delete torrent, keep files": "Supprimer le torrent et garder les fichiers",
+        "Delete torrent and files": "Supprimer le torrent et les fichiers"
+    },
+    "settings": {
+        "Settings": "Param\u00e8tres",
+        "General": "G\u00e9n\u00e9ral",
+        "Downloads": "T\u00e9l\u00e9chargements",
+        "Change": "Changer",
+        "Startup": "D\u00e9marrage",
+        "Run at startup": "Ex\u00e9cuter au d\u00e9marrage",
+        "Language": "Langue",
+        "If you do dont see your language, help us translate": "Si vous ne voyez pas votre langue, aidez-nous \u00e0 traduire"
+    }
+}

@@ -1,0 +1,55 @@
+{
+  "main": {
+    "Paste or drag a torrent": "Paste or drag a torrent",
+    "No torrent selected": "No torrent selected"
+  },
+  "sidebar": {
+    "All": "All",
+    "Downloading": "Downloading",
+    "Paused": "Paused",
+    "Seeding": "Seeding",
+    "Done": "Done",
+
+    "Bugs": "Bugs",
+    "Ideas": "Ideas",
+    "Share": "Share"
+  },
+  "share": {
+    "Give the gifts of donuts": "Give the gifts of donuts",
+    "Share DonutGlaze with your friends and make their day! Everyone loves donuts.": "Share DonutGlaze with your friends and make their day! Everyone loves donuts."
+  },
+  "torrent": {
+    "Checking...": "Checking...",
+    "Paused": "Paused",
+    "Calculating...": "Calculating...",
+    "Done": "Done"
+  },
+  "onboarding": {
+    "Click links with magnets": "Click links with magnets",
+    "They will download here!": "They will download here!",
+    "Next": "Next",
+    "Stream torrents while they download": "Stream torrents while they download",
+    "Click on the playable file and stream!": "Click on the playable file and stream!",
+    "Finish": "Finish"
+  },
+  "drop": {
+    "Drop it like it's hot!": "Drop it like it's hot!"
+  },
+  "tooltips": {
+    "Pause downloading": "Pause downloading",
+    "Resume downloading": "Resume downloading",
+    "Share torrent": "Share torrent",
+    "Delete torrent, keep files": "Delete torrent, keep files",
+    "Delete torrent and files": "Delete torrent and files"
+  },
+  "settings": {
+    "Settings": "Settings",
+    "General": "General",
+    "Downloads": "Downloads",
+    "Change": "Change",
+    "Startup": "Startup",
+    "Run at startup": "Run at startup",
+    "Language": "Language",
+    "If you do dont see your language, help us translate": "If you do dont see your language, help us translate"
+  }
+}

@@ -1,0 +1,64 @@
+.modal {
+	.modal-dialog {
+    min-width: 700px;
+    .modal-header.setting {
+      align-items: center;
+    }
+    strong {
+      &.twitter {
+        color: #60B5F0;
+      }
+      &.facebook {
+        color: #4464A2;
+      }
+      &.email {
+        color: #2FBB86;
+      }
+      &.weibo {
+        color: #E82225;
+      }
+      &.vk {
+        color: #304F79;
+      }
+      &.qzone {
+        color: #3D87CA;
+      }
+      &.rightbar {
+        color: #000000;
+        font-size: 20px;
+      }
+      &.chngbtn {
+        color: #000000;
+        font-size: 15px;
+      }
+    }
+    .setbtn {
+      min-width: 58px;
+      min-height: 40px;
+      text-align: left;
+    }
+    span.leftbar {
+      color: #000000;
+      font-size: 15px;
+    }
+    .rightbar_row {
+      margin-top: 10px;
+      min-height: 40px;
+    }
+    .rightbar_dropdown {
+      min-height: 40px;
+    }
+    .inputpath {
+      min-height: 40px;
+    }
+    .leftbtn {
+      text-align: left;
+    }
+    .helplink {
+      color: #1976D2;
+    }
+    .dropbox {
+      min-height: 35px;
+    }
+  }
+}

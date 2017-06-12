@@ -1,0 +1,28 @@
+.donut-drop-page {
+  position: absolute;
+  z-index: 9999;
+  background-color: white;
+  opacity: 0.95;
+
+  img {
+    &.steam {
+      width: 21px;
+    }
+    &.donut {
+      width: 32px;
+      margin-top: 3px;
+    }
+  }
+}
+
+.drop-it-like-it-s-hot {
+  margin-top: 20px;
+  color: #3B4751;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 27px;
+}
+
+.donut-drop-opacity {
+  opacity: 0;
+}

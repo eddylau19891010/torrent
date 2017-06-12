@@ -1,0 +1,54 @@
+{
+    "main": {
+        "Paste or drag a torrent": "Plak of versleep de torrent",
+        "No torrent selected": "Er is geen torrent geslecteerd                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              "
+    },
+    "sidebar": {
+        "All": "Alles",
+        "Downloading": "Downloading",
+        "Paused": "Gepauzeerd",
+        "Seeding": "Seeding",
+        "Done": "Klaar",
+        "Bugs": "Bugs",
+        "Ideas": "Idee\u00ebn",
+        "Share": "Deel"
+    },
+    "share": {
+        "Give the gifts of donuts": "Geef donuts cadeau",
+        "Share DonutGlaze with your friends and make their day! Everyone loves donuts.": "Deel DonutGlaze met je vrienden! Iedereen houd van donuts."
+    },
+    "torrent": {
+        "Checking...": "Controleren...",
+        "Paused": "Gepauzeerd",
+        "Calculating...": "Berekenen...",
+        "Done": "Klaar"
+    },
+    "onboarding": {
+        "Click links with magnets": "Klik op link met magnets",
+        "They will download here!": "Hier worden de bestanden opgeslagen!",
+        "Next": "Volgende",
+        "Stream torrents while they download": "Stream torrents terwijl ze downloaden",
+        "Click on the playable file and stream!": "Klik op het afspeelbare bestand om het te streamen!",
+        "Finish": "Klaar"
+    },
+    "drop": {
+        "Drop it like it's hot!": "Drop it like it's hot!"
+    },
+    "tooltips": {
+        "Pause downloading": "Pauzeer het downloaden",
+        "Resume downloading": "Hervat het downloaden",
+        "Share torrent": "Deel de torrent",
+        "Delete torrent, keep files": "Verwijder de torrent en bewaar de bestanden",
+        "Delete torrent and files": "Verwijder de torrent en de bestanden"
+    },
+    "settings": {
+        "Settings": "Instellingen",
+        "General": "Algemeen",
+        "Downloads": "Downloads",
+        "Change": "Wijzig",
+        "Startup": "Startup",
+        "Run at startup": "Laadt tijdens het opstarten",
+        "Language": "Taal",
+        "If you do dont see your language, help us translate": "Als je hier niet je eigen taal ziet, help ons dan met vertalen"
+    }
+}

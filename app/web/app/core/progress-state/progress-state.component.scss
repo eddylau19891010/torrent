@@ -1,0 +1,39 @@
+.fa {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 100;
+}
+
+.fa-upload {
+  color: #00d0bd;
+}
+
+.error-sign {
+  position: absolute;
+  top: 8px;
+  left: 14px;
+  z-index: 100;
+}
+
+span {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 100;
+  font-size: 10px;
+  line-height: 13px;
+  color: #3B4751;
+
+  &.small-value {
+    left: 12px;
+  }
+
+  &.medium-value {
+    left: 9px;
+  }
+
+  &.large-value {
+    left: 6px;
+  }
+}

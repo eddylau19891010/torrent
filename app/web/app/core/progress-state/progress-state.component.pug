@@ -1,0 +1,12 @@
+progress-circle(*ngIf="torrent.isFinished()", [value]="1", color="#626262", backgroundColor="#626262")
+  .fa.fa-check
+progress-circle(*ngIf="torrent.isSeeding()", [value]="1", color="#00d0bd")
+  .fa.fa-upload
+progress-circle(*ngIf="torrent.isError()", [value]="1", color="#f55753")
+  span.error-sign !
+progress-circle(*ngIf="torrent.isChecking()", [infinite]="true")
+progress-circle(*ngIf="torrent.isActive()", #progress="", [value]="torrent.progress", color="#FF708A")
+  span(
+    [class.small-value]="getValue() < 0.1",
+    [class.medium-value]="getValue() >= 0.1 && getValue() < 1",
+    [class.large-value]="getValue() >= 1") {{getValue() * 100 | number:'.0-0'}}

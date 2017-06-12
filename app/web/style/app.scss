@@ -1,0 +1,175 @@
+@import "~bootstrap/scss/bootstrap";
+$fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome";
+$lato-font-path: "~lato-font/fonts";
+@import "~lato-font/scss/lato-font";
+
+a {
+  color: #03A9F4;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  letter-spacing: 0.01em;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-feature-settings: "kern" 1;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+}
+
+donutglaze {
+  height: 100%;
+}
+
+a,
+a:active,
+a:focus,
+a:hover,
+button {
+  outline: 0 !important;
+  text-decoration: none;
+}
+
+.full-height {
+  height: 100% !important;
+}
+
+.btn-complete,
+.btn-complete:focus {
+  color: #ffffff;
+  background-color: #48b0f7;
+  border-color: #48b0f7;
+}
+
+.email-list {
+  background: #fff;
+  height: 100%;
+  overflow-y: auto;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.b-grey {
+  border-color: #e6e6e6;
+}
+
+.b-r {
+  border-right-width: 1px;
+}
+
+.b-a,
+.b-b,
+.b-l,
+.b-r,
+.b-t {
+  border-style: solid;
+  border-width: 0;
+}
+
+.inline {
+  display: inline-block !important;
+}
+
+.m-l-15 {
+  margin-left: 15px;
+}
+
+.btn:hover {
+  background-color: #fafafa;
+  border: 1px solid rgba(98, 98, 98, 0.27);
+}
+
+.btn.active {
+  border-color: #e6e6e6;
+  background: #fff;
+}
+
+.btn.active:focus,
+.btn:active:focus,
+.btn:focus {
+  outline: none !important;
+  outline-style: none;
+}
+
+.btn .caret {
+  margin-left: 3px;
+}
+
+.btn .caret.single {
+  margin-left: 0;
+}
+
+.btn.active,
+.btn.disabled,
+.btn:active,
+.btn:focus,
+.btn:hover,
+.btn[disabled] {
+  box-shadow: none;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+li {
+  outline: none;
+  border: none;
+}
+
+.btn-group-lg > .btn,
+.btn-lg {
+  padding-left: 28px;
+  padding-right: 28px;
+  line-height: 23px;
+}
+
+.btn-group-sm > .btn,
+.btn-sm {
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 11.9px;
+  line-height: 20px;
+}
+
+.btn-group-xs > .btn,
+.btn-xs {
+  padding: 2px 9px;
+  font-size: 10.5px;
+}
+
+.btn-cons {
+  margin-right: 5px;
+  min-width: 120px;
+}
+
+.btn-rounded {
+  border-radius: 100px;
+}
+
+.center-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.column-view {
+  display: flex;
+  flex-direction: column;
+}
+
+.align-items-center {
+  align-items: center;
+}

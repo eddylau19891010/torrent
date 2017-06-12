@@ -1,0 +1,9 @@
+.file-view.email-opened
+  span.no-torrent-text(*ngIf="!torrent") {{ "main.No torrent selected" | translate }}
+  .email-content-wrapper(*ngIf="torrent")
+    .media-placeholder.center
+      file-viewer(#fileViewer="", *ngIf="selectedFile", [torrent]="torrent", [file]="selectedFile")
+    .file-view-files(*ngIf="torrent && torrent.items")
+      .file-view-list.list-loaded
+        file-item([torrent]="item", [showItems]="true", *ngFor="let item of torrent?.items; let i = index", [showPlayControl]="true",
+          (play)="play(torrent, i)", (pause)="pausePlay(torrent, i)")

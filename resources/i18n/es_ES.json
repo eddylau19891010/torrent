@@ -1,0 +1,54 @@
+{
+    "main": {
+        "Paste or drag a torrent": "Pega o arrastra un torrent",
+        "No torrent selected": "Ning\u00fan torrent seleccionado"
+    },
+    "sidebar": {
+        "All": "Todo",
+        "Downloading": "Descargando",
+        "Paused": "Pausado",
+        "Seeding": "Seeding",
+        "Done": "Hecho",
+        "Bugs": "Bugs",
+        "Ideas": "Ideas",
+        "Share": "Compartir"
+    },
+    "share": {
+        "Give the gifts of donuts": "Regala unas donas!",
+        "Share DonutGlaze with your friends and make their day! Everyone loves donuts.": "Comparte DonutGlaze con tus amigos y al\u00e9grales el d\u00eda! Todos aman las donas."
+    },
+    "torrent": {
+        "Checking...": "Chequeando...",
+        "Paused": "Pausado",
+        "Calculating...": "Calculando...",
+        "Done": "Hecho"
+    },
+    "onboarding": {
+        "Click links with magnets": "Click\u00e9a links con im\u00e1nes",
+        "They will download here!": "Se descargar\u00e1n aqu\u00ed",
+        "Next": "Siguiente",
+        "Stream torrents while they download": "Mira torrents mientras se descargan",
+        "Click on the playable file and stream!": "Haz click en el archivo reproducible y m\u00edralo!",
+        "Finish": "Terminar"
+    },
+    "drop": {
+        "Drop it like it's hot!": "Drop it like it's hot!"
+    },
+    "tooltips": {
+        "Pause downloading": "Pausar descarga",
+        "Resume downloading": "Seguir descargando",
+        "Share torrent": "Compartir torrent",
+        "Delete torrent, keep files": "Borrar torrent y mantener archivos",
+        "Delete torrent and files": "Borrar torrent y archivos"
+    },
+    "settings": {
+        "Settings": "Preferencias",
+        "General": "General",
+        "Downloads": "Descargas",
+        "Change": "Cambiar",
+        "Startup": "Inicio",
+        "Run at startup": "Abrir al inicio",
+        "Language": "Lenguaje",
+        "If you do dont see your language, help us translate": "Si no ves tu lenguaje, ay\u00fadanos a traducir"
+    }
+}

@@ -1,0 +1,13 @@
+div(class="ui-player")
+  div.file-open(*ngIf="!playing && !paused")
+    .ui-player-open(*ngIf="!file.media")
+      a((click)="openFile(file)")
+        .ui-player-circular
+          img.file-type.file-type-folder-open
+    .ui-player-play-link(*ngIf="file.media")
+      a((click)="playFile(file)")
+        .ui-player-circular
+          img.file-type.file-type-play
+    .ui-player-play-filename
+      | {{file.name}}
+  file-player(#filePlayer="", (created)="onPlayerCreated($event)", [torrent]="torrent", [file]="file", *ngIf="file.media", [class.ui-player-hidden]="!playing && !paused")

@@ -1,0 +1,250 @@
+.list-view-wrapper {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: absolute;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+.list-view-container {
+  position: relative;
+}
+
+.list-view-container .list-quickscroll ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  z-index: 120;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.list-view-container .list-quickscroll ul li a {
+  font-size: 0.7em;
+  vertical-align: baseline;
+}
+
+.list-view-group-container {
+  margin: 0;
+  min-height: 1px;
+  overflow: hidden;
+  padding: 26px 0 0 0;
+  position: relative;
+}
+
+.list-view-group-container:last-child ul {
+  border: 0;
+}
+
+.list-view-group-header,
+.list-view-fake-header {
+  background: #fafafa;
+  color: #232830;
+  font: normal 11px/14px 'Montserrat', Arial;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 6px 0 5px 15px;
+  position: absolute;
+  border-top: 1px solid rgba(0, 0, 0, 0.07);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  z-index: 10;
+}
+
+.list-view-group-header {
+  bottom: auto;
+  min-height: 1px;
+  top: 0;
+  width: 100%;
+  border-top: 0;
+}
+
+.list-view-fake-header {
+  width: 100%;
+  z-index: 100;
+  font-size: 11px !important;
+  line-height: 14px !important;
+}
+
+.list-view-fake-header.list-view-hidden {
+  visibility: hidden;
+}
+
+.list-view-group-container.list-view-animated .list-view-group-header {
+  bottom: 0;
+  top: auto;
+}
+
+input.list-view-search {
+  font-size: 15px;
+  color: #232830;
+}
+
+.no-top-border .list-view-fake-header {
+  border-top: 0;
+}
+
+.list-view ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.list-view li {
+  padding-left: 15px;
+  white-space: nowrap;
+  cursor: pointer;
+  width: 100%;
+  display: table;
+}
+
+.list-view li:hover {
+  background-color: #daeffd;
+}
+
+.list-view li.active {
+  background-color: #fef6dd;
+}
+
+.list-view li p {
+  margin: 0;
+  line-height: 19px;
+}
+
+.list-view li > a {
+  margin-right: 15px;
+  display: table;
+  width: 100%;
+}
+
+.list-view.boreded li > a {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.list-view.boreded li:last-child > a {
+  border-bottom: 0;
+}
+
+.list-view.boreded li + li {
+  border-top: 0;
+}
+
+[data-ios="true"] .list-view-group-header,
+[data-ios="true"] .list-view-fake-header {
+  width: 288px;
+}
+
+.list-group-item {
+  border: 1px solid #f0f0f0;
+}
+
+.list-group-item.active,
+.list-group-item.active:hover,
+.list-group-item.active:focus {
+  background-color: #40d9ca;
+  border-color: #40d9ca;
+}
+
+.list-group-item:first-child {
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+.list-group-item:last-child {
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+.torrent-item p.torrent-item-name.torrent-item-subject.subject {
+	height: auto;
+	white-space: nowrap;
+	overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.torrent-item .controls {
+	visibility: hidden;
+}
+
+.torrent-item.active .controls, .torrent-item:hover .controls {
+	visibility: visible;
+}
+
+.list-view-group-container {
+	padding: 0;
+}
+
+.controls {
+	margin-bottom: -18px;
+    margin-top: 4px;
+
+	button {
+		margin-right: 20px;
+		i.fa {
+			font-size: 12px;
+			color: #499dea;
+		}
+	}
+}
+
+.email-wrapper .email-list .item {
+    .body {
+        font-size: 12.6px;
+        opacity: .52;
+        height: 22px;
+    }
+
+    .inline > * {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        font-family: arial;
+    }
+}
+
+div.list-view .progress-circle {
+    top: 18px;
+}
+.progress-circle.progress-circle-success {
+    color: #10CFBD;
+}
+
+.list-view .progress-circle {
+    float: left;
+}
+
+.progress-circle, .progress-circle .pie, .progress-circle .pie .half-circle {
+    height: 30px;
+    width: 30px;
+}
+
+.progress-circle {
+    display: block;
+    height: 30px;
+    margin: 0 auto;
+    position: relative;
+    width: 30px;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+.list-view .item {
+    height: auto !important;
+    list-style: none;
+    position: relative;
+    border-bottom: 1px solid rgba(230, 230, 230, 0.7);
+    cursor: pointer;
+}
+
+.torrent-item-name {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.torrent-item-block {
+  width: 300px;
+}

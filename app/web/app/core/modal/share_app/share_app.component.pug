@@ -1,0 +1,98 @@
+#shareApp.modal.fade.slide-up.disable-scroll(tabindex='-1', role='dialog', aria-hidden='false', style='display: none; padding-right: 15px;')
+  .modal-dialog
+    .modal-content-wrapper
+      .modal-content
+        .modal-header.clearfix
+          button.close(type='button', data-dismiss='modal', aria-hidden='true')
+            i.pg-close.fs-14
+        .modal-body.text-center
+          h2.m-b-25
+            strong {{ "share.Give the gifts of donuts" | translate }}
+          img.m-b-20(src="img/DonutGlaze_sharing.svg")
+          p.m-b-50.text-center {{ "share.Share DonutGlaze with your friends and make their day! Everyone loves donuts." | translate }}
+          .row
+            .col-md-4.p-r-5.m-b-10
+              button.btn.btn-lg.btn-default.btn-block.m-t-5((click)='twitter()')
+                strong.twitter Twitter
+            .col-md-4.p-r-5.p-l-5.m-b-10
+              button.btn.btn-lg.btn-default.btn-block.m-t-5(type='button', (click)='facebook()')
+                strong.facebook Facebook
+            .col-md-4.p-l-5.m-b-10
+              button.btn.btn-lg.btn-default.btn-block.m-t-5(type='button', (click)='email()')
+                strong.email Email
+            .col-md-4.p-r-5
+              button.btn.btn-lg.btn-default.btn-block(type='button', (click)='weibo()')
+                strong.weibo Weibo
+            .col-md-4.p-r-5.p-l-5
+              button.btn.btn-lg.btn-default.btn-block(type='button', (click)='vk()')
+                strong.vk VK
+            .col-md-4.p-l-5
+              button.btn.btn-lg.btn-default.btn-block(type='button', (click)='qzone()')
+                strong.qzone Qzone
+#settingApp.modal.fade.slide-up.disable-scroll(tabindex='-1', role='dialog', aria-hidden='false', style='display: none; padding-right: 15px;')
+  //link(class="main-stylesheet", href="app/style/theme/scss/pages.scss", rel="stylesheet", type="text/scss")
+  .modal-dialog
+    .modal-content-wrapper
+      .modal-content
+        .modal-header.clearfix.setting
+          button.close(type='button', data-dismiss='modal', aria-hidden='true')
+            i.pg-close.fs-14
+          h2.m-b-25
+            strong {{ "settings.Settings" | translate }}
+          //img.m-b-20(src="img/DonutGlaze_sharing.svg")
+        .modal-body
+          .row
+            .col-xs-3.col-sm-3.col-md-3.col-lg-3
+              .row
+                .col-xs-12.col-sm-12.col-md-12.col-lg-12
+                  a.btn-default.btn-block.leftbtn.m-t-5
+                    span.leftbar {{ "settings.General" | translate }}
+              .row
+                .col-xs-12.col-sm-12.col-md-12.col-lg-12
+                  a.btn-default.btn-block.leftbtn.m-t-5
+                    span.leftbar Bandwidth
+                    //{{ "settings.Bandwidth" | translate }}
+              .row
+                .col-xs-12.col-sm-12.col-md-12.col-lg-12
+                  a.btn-default.btn-block.leftbtn.m-t-5
+                    span.leftbar Seeding
+                    //{{ "settings.Seeding" | translate }}
+              .row
+                .col-xs-12.col-sm-12.col-md-12.col-lg-12
+                  a.btn-default.btn-block.leftbtn.m-t-5
+                    span.leftbar Notifications
+                    //{{ "settings.Notifications" | translate }}
+              .row
+                .col-xs-12.col-sm-12.col-md-12.col-lg-12
+                  a.btn-default.btn-block.leftbtn.m-t-5
+                    span.leftbar Network
+                    //{{ "settings.Network" | translate }}
+            .col-xs-9.col-sm-9.col-md-9.col-lg-9
+              .form-group
+                label 
+                  strong.rightbar {{ "settings.Downloads" | translate }}
+                .form-inline
+                  input.form-control.col-xs-9.col-sm-9.col-md-9.col-lg-9#pathedit(type='text', [(ngModel)]="down_folder")
+                  button.form-control.btn-default.m-l-5(type='button', (click)='onchange()')
+                    strong.chngbtn {{ "settings.Change" | translate }}
+              .form-group
+                label
+                  strong.rightbar {{ "settings.Startup" | translate }}
+                .checkbox.check-success
+                  input(type='checkbox', checked='checked', value='1')
+                  label
+                    | {{ "settings.Run at startup" | translate }}
+              .form-group
+                label
+                  strong.rightbar {{ "settings.Language" | translate }}
+                .form-group
+                  label
+                    | If you do not see your language, 
+                    a((click)='translateurl()')
+                      span.helplink help us translate.
+                select.cs-select.cs-skin-slide.dropbox(data-init-plugin="cs-select")
+                  option English
+                  option Deutsch
+                  option Francais
+                  option Italiano
+                  option Portugues

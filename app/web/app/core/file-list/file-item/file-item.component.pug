@@ -1,0 +1,18 @@
+li.torrent-item([class.folder]="torrent.type === 'folder'", [class.root]="torrent.type === 'root'", [class.collapsed]="!torrent.expanded")
+  .info((click)="selectItem(torrent)", (dblclick)="openItem(torrent)", [class.active]="isSelected(torrent)", class="padding-level-{{level || 0}}")
+    .icon-type
+      i(class='fa {{torrent.fileIcon}}')
+    .desc
+      span.name {{torrent.fileName || torrent.name}}
+        span.ext {{torrent.ext}}
+      .details(*ngIf="torrent.type === 'folder'")
+        | {{torrent.totalSize | bytes}}&nbsp;|&nbsp;{{torrent.totalFiles}} files
+      .details(*ngIf="torrent.type === 'file'")
+        | {{torrent.totalSize | bytes}}
+    .progress-info.pull-right(ng-hide='isCheckMode')
+      progress-state.progress-circle([torrent]="torrent")
+  .content(*ngIf='torrent?.items && torrent.expanded')
+    ul(*ngFor="let item of torrent?.items")
+      span.file-item-block
+        span.file-item-container
+          file-item([torrent]="item", [level]="level + 1")

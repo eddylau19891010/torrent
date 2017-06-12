@@ -1,0 +1,80 @@
+.file-type-folder-open {
+	content: url("img/folder-open.svg");
+	color: white;
+}
+
+.file-type-play {
+	content: url("img/play.svg");
+	color: white;
+}
+
+.ui-player .ui-player-circular {
+	width: 80px;
+	height: 80px;
+	border-radius: 150px;
+	box-shadow: 0 0 0 2px #51ACFA;
+	background-color: #fff;
+}
+
+.ui-player {
+	height: 100%;
+	width: 100%;
+}
+
+.file-path {
+	color: white;
+	font-size: 18px;
+	position: relative;
+	top: 0;
+	left: 10px;
+}
+
+.file-open {
+	height: 100%;
+}
+
+.ui-player-open {
+	cursor: pointer;
+	position: relative;
+	top: calc(50% - 40px);
+	left: calc(50% - 40px);
+	width: 80px;
+	text-align: center;
+
+	img {
+		width: 50px;
+		margin: 20px 0 0 6px;
+	}
+}
+
+.ui-player-play-link {
+	cursor: pointer;
+	position: relative;
+	top: calc(50% - 40px);
+	left: calc(50% - 40px);
+	width: 80px;
+	text-align: center;
+
+	img {
+		width: 40px;
+		margin: 20px -6px 0 6px;
+	}
+}
+
+.ui-player-play-filename {
+	position: relative;
+	font-weight: 400;
+	font-size: 24px;
+	text-align: left;
+	top: calc(100% - 120px);
+	right: -10px;
+	width: calc(100% - 20px);
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	color: white;
+}
+
+.ui-player-hidden {
+  display: none;
+}

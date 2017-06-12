@@ -1,0 +1,13 @@
+.radial-progress([style.background-color]="backgroundColor")
+  .circle-value {{info}}
+  .circle
+    .mask.loading(*ngIf="infinite")
+      .fill
+    .mask.full(*ngIf="!infinite", [style.transform]="getSmallAngle() | safe")
+      .fill([style.transform]="getSmallAngle() | safe", [style.background-color]="color")
+    .mask.half(*ngIf="!infinite")
+      .fill([style.transform]="getSmallAngle() | safe", [style.background-color]="color")
+      .fill.fix([style.transform]="getLargeAngle() | safe", [style.background-color]="color")
+    .shadow
+    ng-content
+  .inset

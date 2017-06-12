@@ -1,0 +1,26 @@
+.list-view
+  .list-view-wrapper(data-ios='false')
+    .list-view-group-container
+      ul.no-padding
+        li.item.padding-15.torrent-item(*ngFor='let torrent of torrents', (click)='selectTorrent(torrent)', [class.active]="torrent === selectedTorrent")
+          progress-state.progress-circle([torrent]="torrent")
+          .inline.m-l-15.torrent-item-block
+            p.torrent-item-name.torrent-item-subject.subject.no-margin([title]="torrent?.name")
+              | {{torrent?.name}}
+            span.body
+              torrent-info([torrent]="torrent")
+            .controls(*ngIf="!torrent.isError() && !torrent.isChecking()")
+              button.btn.btn-xs((click)='pauseTorrent(torrent, $event)', *ngIf="torrent?.state !== 'paused'", ngbTooltip="{{ 'tooltips.Pause downloading' | translate }}", placement="bottom", data-container="body")
+                i.fa.fa-pause
+              button.btn.btn-xs((click)='resumeTorrent(torrent, $event)', *ngIf="torrent?.state === 'paused'", ngbTooltip="{{ 'tooltips.Resume downloading' | translate }}", placement="bottom", data-container="body")
+                i.fa.fa-play
+              button.btn.btn-xs((click)='shareTorrent(torrent, $event)', ngbTooltip="{{ 'tooltips.Share torrent' | translate }}", placement="bottom", data-container="body")
+                i.fa.fa-share-alt
+              button.btn.btn-xs((click)='archiveTorrent(torrent, $event)', ngbTooltip="{{ 'tooltips.Delete torrent, keep files' | translate }}", placement="bottom", data-container="body")
+                i.fa.fa-archive
+              button.btn.btn-xs((click)='removeTorrent(torrent, $event)', ngbTooltip="{{ 'tooltips.Delete torrent and files' | translate }}", placement="bottom", data-container="body")
+                i.fa.fa-trash
+            .controls(*ngIf="torrent.isError() || torrent.isChecking()")
+              button.btn.btn-xs((click)='removeTorrent(torrent, $event)', ngbTooltip="{{ 'tooltips.Delete torrent and files' | translate }}", placement="bottom", data-container="body")
+                i.fa.fa-trash
+          .clearfix

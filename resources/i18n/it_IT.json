@@ -1,0 +1,54 @@
+{
+    "main": {
+        "Paste or drag a torrent": "Incolla o trascina un torrent",
+        "No torrent selected": "Nessun torrent selezionato"
+    },
+    "sidebar": {
+        "All": "Tutto",
+        "Downloading": "Download in corso",
+        "Paused": "In pausa",
+        "Seeding": "Seeding",
+        "Done": "Fatto",
+        "Bugs": "Bugs",
+        "Ideas": "Idee",
+        "Share": "Condividi"
+    },
+    "share": {
+        "Give the gifts of donuts": "Fai il dono delle ciambelle",
+        "Share DonutGlaze with your friends and make their day! Everyone loves donuts.": "Condividi DonutGlaze con i tuoi amici e svolta la loro giornata! A tutti piacciono le ciambelle."
+    },
+    "torrent": {
+        "Checking...": "Controllo in corso\u2026",
+        "Paused": "In pausa",
+        "Calculating...": "Calcolo in corso\u2026",
+        "Done": "Fatto"
+    },
+    "onboarding": {
+        "Click links with magnets": "Clicca il link con i magnet",
+        "They will download here!": "Verranno scaricati qui!",
+        "Next": "Avanti",
+        "Stream torrents while they download": "Effettua streaming dei torrent durante il download",
+        "Click on the playable file and stream!": "Fai clic sul file riproducibile e fai lo streaming!",
+        "Finish": "Termina"
+    },
+    "drop": {
+        "Drop it like it's hot!": "Droppalo come se andasse a fuoco!"
+    },
+    "tooltips": {
+        "Pause downloading": "Metti in pausa download",
+        "Resume downloading": "Riprendi download",
+        "Share torrent": "Condividi torrent",
+        "Delete torrent, keep files": "Elimina torrent, mantieni i file",
+        "Delete torrent and files": "Elimina torrent e file"
+    },
+    "settings": {
+        "Settings": "Impostazioni",
+        "General": "Generale",
+        "Downloads": "Downloads",
+        "Change": "Cambia",
+        "Startup": "Avvio",
+        "Run at startup": "Esegui all\u2019avvio",
+        "Language": "Lingua",
+        "If you do dont see your language, help us translate": "Se non vedi la tua lingua, aiutaci a tradurre"
+    }
+}

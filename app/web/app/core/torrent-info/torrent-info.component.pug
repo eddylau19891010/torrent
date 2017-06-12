@@ -1,0 +1,9 @@
+span.torrent-info(*ngIf="isNotFinished()")
+  span(*ngIf="!isChecking() && !isError()")
+    span(*ngIf="!isDownloading()") {{getState()}}
+    span(*ngIf="isDownloading()") {{torrent.eta | time}}
+    span(*ngIf="isNotFinished()") &nbsp;|&nbsp;{{getCurrentSize() | bytes}}/{{torrent.totalSize | bytes}}
+    span(*ngIf="isWorking()") &nbsp;|&nbsp;{{getSpeed() | bytes}}/s
+  span &nbsp;
+span.torrent-info(*ngIf="isFinished()")
+  span {{ "torrent.Done" | translate }}

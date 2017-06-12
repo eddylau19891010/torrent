@@ -1,0 +1,56 @@
+nav.ui-sidebar.email-sidebar
+  button.btn.btn-settings(data-toggle="modal" data-target="#settingApp")
+    i.fa.fa-cog
+  .ui-sidebar-header
+    img(src="img/DonutGlaze_sidebar.svg")
+    span.alpha
+      | {{getVersion()}}
+  .ui-sidebar-content
+    ul.main-menu
+      li.menu-item([routerLink]="['/torrents/all']", routerLinkActive="active")
+        span.title
+          i.fa.fa-folder
+          | All
+        span.badge.pull-right(*ngIf="getCount('all') > 0")
+          | {{getCount('all')}}
+      li.menu-item([routerLink]="['/torrents/downloading']", routerLinkActive="active")
+        span.title
+          i.fa.fa-download
+          | Downloading
+        span.badge.pull-right(*ngIf="getCount('downloading') > 0")
+          | {{getCount('downloading')}}
+      li.menu-item([routerLink]="['/torrents/paused']", routerLinkActive="active")
+        span.title
+          i.fa.fa-pause
+          | Paused
+        span.badge.pull-right(*ngIf="getCount('paused') > 0")
+          | {{getCount('paused')}}
+      li.menu-item([routerLink]="['/torrents/seeding']", routerLinkActive="active")
+        span.title
+          i.fa.fa-upload
+          | Seeding
+        span.badge.pull-right(*ngIf="getCount('seeding') > 0")
+          | {{getCount('seeding')}}
+      li.menu-item([routerLink]="['/torrents/finished']", routerLinkActive="active")
+        span.title
+          i.fa.fa-check-circle
+          | Done
+        span.badge.pull-right(*ngIf="getCount('finished') > 0")
+          | {{getCount('finished')}}
+  .ui-sidebar-footer
+    //.button-container.button-container-share
+    //  button.btn.btn-share(data-toggle='modal', data-target='#shareApp') Share DonutGlaze
+    ul.footer-menu
+      li.footer-item([routerLink]="['/torrents/canny/bugs']", routerLinkActive="active")
+        a
+          img(src="img/bug.svg")
+          p Bugs
+      li.footer-item([routerLink]="['/torrents/canny/feature-requests']", routerLinkActive="active")
+        a
+          img(src="img/bulb.svg")
+          p Ideas
+      li.footer-item
+        a(data-toggle="modal" data-target="#shareApp")
+          img(src="img/present.svg")
+          p Share
+

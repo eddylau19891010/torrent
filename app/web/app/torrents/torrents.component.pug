@@ -1,0 +1,12 @@
+modal-content
+.page-content-wrapper.full-height(id="file-drop-input")
+  .content.full-height.full-width.donut-drop-page(id="file-drop-input-overlay", [hidden])
+    div.center-content.column-view.align-items-center
+      img.steam(src="img/steam.svg")
+      img.donut(src="img/DonutGlaze_32.svg")
+      div.drop-it-like-it-s-hot {{ 'drop.Drop it like it\'s hot!' | translate }}
+    .content.full-height.full-width.donut-drop-opacity
+  .content.full-height
+    sidebar(data-torrents='torrents', data-current-filter='currentFilter', data-download-folder='downloadFolder')
+    .email-list.b-r.b-grey
+      router-outlet

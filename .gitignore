@@ -1,0 +1,16 @@
+*.pyc
+*.DS_Store
+*.dmg
+*.log
+*.deb
+*.rpm
+.idea
+node_modules/
+bower_components/
+dist/
+src/
+/nbproject
+build/
+Donutglaze.spec
+/app/compiled/
+/DonutGlaze*

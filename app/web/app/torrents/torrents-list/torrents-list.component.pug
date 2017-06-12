@@ -1,0 +1,17 @@
+.left-panel
+  .file-upload
+    input(id="file-input", type="text" placeholder="{{ 'main.Paste or drag a torrent' | translate }}", [(ngModel)]="torrentPath", (paste)="pasteData()", (keyup.enter)="pasteData()")
+    div.add-block.torrent-add((click)="selectFile()")
+      img(src="img/add-torrent.svg")
+  .onboarding-magnet(*ngIf="!onboardingFinished && onboardingMagnet")
+    img(src="img/onboarding_magnet.svg")
+    div.title {{ 'onboarding.Click links with magnets' | translate }}
+    div.description {{ 'onboarding.They will download here!' | translate }}
+    button.btn.btn-default((click)="nextOnboarding()") {{ 'onboarding.Next' | translate }}
+  file-list.file-list(*ngIf="onboardingFinished", [class.selected]="selectedTorrent", [torrents]="torrents", (torrentChange)="onTorrentSelected($event)")
+.onboarding-stream(*ngIf="!onboardingFinished && onboardingStream")
+  img(src="img/onboarding_stream.svg")
+  div.title {{ 'onboarding.Stream torrents while they download' | translate }}
+  div.description {{ 'onboarding.Click on the playable file and stream!' | translate }}
+  button.btn.btn-default((click)="finishOnboarding()") {{ 'onboarding.Finish' | translate }}
+file-view.right-panel([torrent]="selectedTorrent", *ngIf="onboardingFinished")
