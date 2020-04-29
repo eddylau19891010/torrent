@@ -28,7 +28,7 @@
     "electron-log": "2.2.2",
     "es6-shim": "0.35.0",
     "font-awesome": "4.7.0",
-    "jquery": "2.2.1",
+    "jquery": "3.5.0",
     "lato-font": "^3.0.0",
     "lodash": "4.17.4",
     "lowdb": "0.15.4",
